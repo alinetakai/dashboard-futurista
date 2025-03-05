@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Futurista</title>
+    <style>
+        /* Estilizando o corpo da página */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+            text-align: center;
+        }
+
+        /* Seção do Dashboard */
+        .dashboard {
+            width: 80%;
+            margin: 50px auto;
+            padding: 40px;
+            border: 10px solid rgba(255, 255, 255, 0.2); /* Borda semi-transparente */
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5); /* Brilho neon */
+            
+            /* Aplicando todas as propriedades de background */
+            background: 
+                url('technology.png') no-repeat center/cover; /*imagem sobre tecnologia/futurística - 1600x900*/
+            background-attachment: fixed; /* Fundo fixo na rolagem */
+            background-origin: padding-box; /* Início do fundo dentro do padding */
+            background-clip: border-box; /* Fundo se aplica à borda */
+            background-blend-mode: overlay; /* Mistura a imagem de fundo com a cor */
+        }
+
+        /* Estilizando os cards de informação */
+        .info-card {
+            background: rgba(0, 0, 0, 0.7); /* Fundo escuro semi-transparente */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <h1>🌍 Monitoramento da Cidade Inteligente</h1>
+        <p>Sensores ativos: 245 | Consumo energético: 85% eficiente</p>
+        
+        <div class="info-card">
+            <h2>🌡️ Clima Atual</h2>
+            <p>Temperatura: 25°C | Umidade: 60%</p>
+        </div>
+
+        <div class="info-card">
+            <h2>🚦 Tráfego</h2>
+            <p>Fluxo: Moderado | Acidentes: 2</p>
+        </div>
+
+        <div class="info-card">
+            <h2>🔋 Energia</h2>
+            <p>Painéis solares: 78% de capacidade</p>
+        </div>
+    </div>
+
+</body>
+</html>
